@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найвідоміші музеї світу</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .slider {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            padding: 0 10px; 
+        }
+
+        .slide img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .slider-nav {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            top: 50%;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .slider-nav span {
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Найвідоміші музеї світу</h1>
+        <nav>
+            <button onclick="location.href='#gallery'">Галерея картинок</button>
+            <button onclick="location.href='#facts'">Цікаві факти про музеї</button>
+            <button onclick="location.href='#navigation'">Навігація по музеям</button>
+            <button onclick="location.href='#contacts'">Контакти</button>
+        </nav>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\сучасмузей.jpg" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\вангог.jpg" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\дали.jpg" alt="Image 3">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\лувр.jpg" alt="Image 4">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\Florence,_Italy_Uffizi_Museum_-_panoramio_(5).jpg" alt="Image 5">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\742353@2x.jpg" alt="Image 6">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\метрополітен.webp" alt="Image 7">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\національна галерея.jpg" alt="Image 8">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\прадо.jpg" alt="Image 9">
+                </div>
+                <div class="slide">
+                    <img src="c:\Users\User\Downloads\орсе.webp" alt="Image 10">
+                </div>
+            </div>
+        </div>
+        <section class="museum" id="louvre">
+            <h2>1.Лувр(Musée du Louvre) Париж, Франція</h2>
+            <img src="c:\Users\User\Downloads\моно.jpg" alt="Лувр">
+            <p>Лувр є найбільшим художнім музеєм у світі та історичним пам'ятником у Парижі, Франція.Лувр - один із найвідоміших, найкрасивіших та найвідвідуваніших музеїв світу. Кажуть, навіть швидко проходячи повз кожного експонату, все одно необхідно не менше тижня, аби побачити усе, що міститься у Лувр(а це близько 300 000 експонатів та витворів мистецтва та історичних реліквій з усього світу та з найдавніших часів, які розділені на 9 категорій)
+            <a href="https://www.louvre.fr/en/visites-en-ligne" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="van-gogh-museum">
+            <h2> 2.Музей Ван Гога (нід. Van Gogh Museum) Амстердам, Нідерланди</h2>
+            <img src="c:\Users\User\Downloads\240122-3.jpg" alt="Музей Ван Гога">
+            <p>Музей Вінсента Ван Гога в Амстердамі містить найбільшу у світі колекцію полотен митця. Відвідавши музей онлайн, ви зможете побачити зблизька кожен мазок найвідоміших полотен художника. Наприклад, ті, на які, згідно книги «Що це взагалі таке? 150 років сучасного мистецтва в одній пілюлі» Вілла Ґомперца, Вінсента Ван Гога надихнуло містечко Арль, на півдні Франції. Це такі шедеври, як “Жовтий будинок” (1888), Спальня в Арлі” (1888) та інші.</p>
+            <a href="https://artsandculture.google.com/partner/van-gogh-museum?hl=en" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="Dali-Theater-Museum">
+            <h2>3.Театр-музей Далі (Фігерас, Іспанія)</h2>
+            <img src="c:\Users\User\Downloads\240122-4.jpg" alt="Театр-музей Далі">
+            <p>Театр-музей Далі в Іспанії - музей, який містить найбільше у світі зібрання картин одного з найвідоміших представників сюрреалізму та живописців Іспанії - Сальвадора Далі. Офіційний сайт музею пропонує віртуальний тур по залам, кожен з яких присвячений конкретному періоду творчості митця.</p>
+            <a href="https://www.salvador-dali.org/en/museums/dali-theatre-museum-in-figueres/visita-virtual/" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="moma">
+            <h2>4.Музей сучасного мистецтва (Museum of Modern Art, чи MOMA) Нью-Йорк, Сполучені Штати Америки</h2>
+            <img src="c:\Users\User\Downloads\240122-5.jpg" alt="Museum-of-Modern-Art">
+            <p>Музей сучасного мистетства в Нью-Йорку вважають одним із найкращих у своєму роді, адже в ньому зібрана неймовірна кількість шедеврів сучасного мистецтва. На сьогоднішній день, завдяки віртуальній колекції, ми маємо можливість роздивитись онлайн безліч всесвітньо відомих витворів мистецтва, наприклад: “Зоряна ніч” Вінсента Ван Гога (1889 р.), “Сон” Анрі Руссо(1909-1910 рр.), “Надія ІІ” Густава Клімта(1907-1908 рр.) та інші.</p>
+            <a href="https://artsandculture.google.com/partner/moma-the-museum-of-modern-art" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="Orsay-Museum">
+            <h2>5. Музей Орсе (Musée d'Orsay) Париж, Франція</h2>
+            <img src="c:\Users\User\Downloads\240122-6.jpg" alt="Музей Орсе">
+            <p>Музей Орсе - національний музей Франції, найбільш відомий полотнами представників імпресіоністів та постімпресіоністів (Моне, Мане, Ван Гога, Ренуара) також має велике зібрання онлайн колекції та віртуальний тур.</p>
+            <a href="https://artsandculture.google.com/partner/musee-dorsay-paris" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="Prado Museum">
+            <h2>6. Музей Прадо(Museo Nacional del Prado) Мадрид, Іспанія</h2>
+            <img src="c:\Users\User\Downloads\240122-7.jpg" alt="Музей Прадо">
+            <p>Музей Прадо в Мадриді - один із найбільш відвідуваних музеїв Європи. Колекція музею нараховує близько 30 000 полотен (близько 11 000 можна оглянути онлайн) та відома своїм зібранням шедеврів творіння майстрів з усього світу: Рафаеля, Рембрандта, Тіціана, Веласкеса.</p>
+            <a href="https://www.museodelprado.es/en/the-collection" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="London National gallery"></section>
+            <h2>7. Лондонська Національна галерея (Лондон, Сполучене Королівство Великої Британії)</h2>
+            <img src="c:\Users\User\Downloads\240122-8.jpg" alt="Лондонська Національна галерея">
+            <p>Лондонська національна галерея містить велику кількість шедеврів західноєвропейських митців. В онлайн колекції музею за допомогою функції додаткової реальності можна детально розглянути безліч витворів мистецтва, як: “Святе сімейство з Пастирем” Тіціана (1510 р.) та ”Темза біля Вестмінстеру” (1871 р.) Клода Моне, щодо якої Вілл Ґомперц у книзі “Що це взагалі таке?150 років сучасного мистецтва” розкрив декілька цікавих фактів. Наприклад, звернувши увагу на сучасні парові буксири та на будівництво пірсу та його приєднання до нової набережної, Вілл Ґомперц пише, що якби Моне відвідав Лондон на десять років раніше, то більшості об'єктів, котрі були зображені на картині просто не існувало..</p>
+            <a href="https://artsandculture.google.com/partner/the-national-gallery-london" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="The Metropolitan Museum of Art">
+            <h2>8. Метрополітен-музей (The Metropolitan Museum of Art чи The Met) Нью-Йорк, Сполучені Штати Америки</h2>
+            <img src="c:\Users\User\Downloads\240122-9.jpg" alt="Метрополітен-музей">
+            <p>Один із найбільших та найбільш відомих музеїв світу пропонує відвідати онлайн тур та розглянути найбільш відомі картини Вінсента Ван Гога, Густава Курбе, Едгара Дега, Кацуші́ка Хокуса́я, Жоржа Сера та інших.</p>
+            <a href=" https://artsandculture.google.com/partner/the-metropolitan-museum-of-art" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="Art Institute of Chicago">
+            <h2>9. Чиказький художній інститут (англ. Art Institute of Chicago чи АІС) Чикаго, Сполучені Штати Америки</h2>
+            <img src="c:\Users\User\Downloads\240122-10.jpg" alt="Чиказький художній інститут">
+            <p>Чиказький художній інститут - одночасно вищий навчальний заклад та музей, який налічує близько 250 000 предметів мистецтва. Онлайн колекція, в свою чергу, дає можливість помилуватись шедеврами Ренуара, Моне, Корреджо, Жоржа Сера та інших.</p>
+            <a href="https://artsandculture.google.com/partner/the-art-institute-of-chicago" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section class="museum" id="Uffizi Gallery">
+            <h2>10. Галерея Уффіці (італ. Galleria degli Uffizi) Флоренція, Італія
+            </h2>
+            <img src="c:\Users\User\Downloads\240122-11 (1).jpg" alt="Галерея Уффіці">
+            <p>Галерея Уффіці - один із найстаріших музеїв Європи, який містить вражаючу колекцію витворів легендарних майстрів. Для тих, хто хоче краще та ближче розглянути витвори мистецтва Леонардо да Вінчі, Сандро Боттічеллі, Караваджо, Тиціана і не тільки, пропонуємо перейти на сайт онлайн колекції та скористатись функціями доповненої реальності для максимального збільшення зображення та допуску до усіх можливих деталей полотен.</p>
+            <a href=" https://artsandculture.google.com/partner/uffizi-gallery?hl=it" target="_blank">Відвідати онлайн</a>
+        </section>
+        <section id="gallery">
+            <h2>Галерея картинок</h2>
+        <p><button onclick="location.href='#'">Повернутися на головне меню</button></p>
+            <img src="c:\Users\User\Downloads\Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg" alt="vincent">
+            <img src="c:\Users\User\Downloads\поле.jpeg" alt="поле">
+            <img src="c:\Users\User\Downloads\череп.jpeg" alt="череп">
+            <img src="c:\Users\User\Downloads\ніч.jpeg" alt="ніч">
+            <img src="c:\Users\User\Downloads\художмаст.jpeg" alt="художмаст">
+            <img src="c:\Users\User\Downloads\оркестр.jpeg" alt="оркестр">
+            <img src="c:\Users\User\Downloads\клодмоне.jpeg" alt="клодмоне">
+        </section>
+        <section id="facts">
+            <h2>Цікаві факти про музеї</h2>
+            <button onclick="location.href='#'">Повернутися на головне меню</button>
+            <p>Щороку 18 травня світова спільнота відзначає Міжнародний День музеїв. У 2023 році День музеїв буде присвячений важливій ролі музеїв у добробуті та сталому розвитку суспільства. Українські музеї та музейні колекції стали особливими мішенями у війні росії проти України. І на жаль, чимало українських музеїв не зможуть відкрити свої двері для відвідувачів. Але це чудова нагода підтримати громади через спеціальні заходи, аби підтвердити, наскільки музеї важливі для нашої пам’яті, ідентичності, освіти та нашого майбутнього.</p>
+
+            <p><strong>1.</strong> Міжнародний День музеїв відзначають понад 30 тисяч музеїв у 129 країнах світу. Ці установи збирають й зберігають артефакти та зразки, які є надзвичайно корисними для вивчення культур.</p>
+            
+            <p><strong>2.</strong> Слово «музей» походить від грецького слова «mouseion» та означав храми, присвячені музам і мистецтву.</p>
+            
+            <p><strong>3.</strong> У IV столітті до нашої ери Аристотель засновує музей у своїй школі-ліцеї, щоб зібрати зразки для власних зоологічних досліджень, які він робив до самої смерті.</p>
+            
+            <p><strong>4.</strong> Колись мистецькі колекції були символами статусу. Пожвавлення інтересу до класичного мистецтва та архітектури спонукало заможні купецькі та банківські родини накопичувати колекції мистецтва як символи статусу в епоху Відродження, що ознаменувало створення сучасних музеїв.</p>
+            
+            <p><strong>5.</strong> Існує п’ять основних класів музеїв: загальні, природно-історичні та природознавчі, науково-технічні, історичні та художні.</p>
+            
+            <p><strong>6.</strong> Найбільш відвідувана пам’ятка у минулому – музей Стародавнього Єгипту. Олександрійський музей був побудований Птолемеєм I Сотером приблизно в 300 році до нашої ери.</p>
+            
+            <p><strong>7.</strong> Найпопулярнішими музеями світу в наш час вважаються: Британський музей у Лондоні, Гуггенхайм у Нью-Йорку, Музей Ван Гога в Амстердамі, Музей Ларко в Лімі, Музей Акрополя в Афінах, Лувр у Франції та Музей Метрополітен. мистецтва в Нью-Йорку.</p>
+            
+            <p><strong>8.</strong> Найвідоміші артефакти: Розеттський камінь у Єгипті, мармур Елгіна в Греції, діамант Кох-і-Нур в Індії, бюст Нефертіті в Єгипті, скарби Сіону в Туреччині та імперські скарби в Китаї є одними з найвідоміших у світі артефактів.</p>
+            
+            <p><strong>9.</strong> Один із найбільших і найстаріших в Україні – Національний художній музей, розташований у столиці на вулиці Михайла Грушевського. Заснований 1 серпня 1899 року, він став першим загальнодоступним музеєм Києва.</p>
+            
+            <p>Серед найдивовижніших музеїв України: Музей гуцульскої магії (Верховина), музей ідей (Львів), музей весілля (Велика Будища), Підводний музей (Малин), Музей історії туалету (Київ), Музей контрабанди (Одеса), Музей домашньої ікони, що знаходиться у «Замку Радомисль».</p>
+            
+        </section>
+        <section id="navigation">
+            <h2>Навігація по музеям</h2>
+            <button onclick="location.href='#'">Повернутися на головне меню</button>
+            <ul>
+                <li><a href="#louvre">Лувр, Париж</a></li>
+                <li><a href="#van-gogh-museum">Музей Ван Гога, Амстердам</a></li>
+                <li><a href="#Dali-Theater-Museum">Театр-музей Далі, Фігерас</a></li>
+                <li><a href="#moma">Музей сучасного мистецтва, Нью-Йорк</a></li>
+                <li><a href="#Orsay-Museum">Музей Орсе, Париж</a></li>
+                <li><a href="#Prado Museum">Музей Прадо, Мадрид</a></li>
+                <li><a href="#London National gallery">Лондонська Національна галерея</a></li>
+                <li><a href="#The Metropolitan Museum of Art">Метрополітен-музей, Нью-Йорк</a></li>
+                <li><a href="#Art Institute of Chicago">Чиказький художній інститут (англ. Art Institute of Chicago чи АІС) Чикаго, Сполучені Штати Америки</a></li>
+                <li><a href="#Uffizi Gallery">Галерея Уффіці (італ. Galleria degli Uffizi) Флоренція, Італія</a></li>
+            </ul>
+            
+        </section>
+        <section id="contacts">
+            <h2>Контакти</h2>
+            <p></p><button onclick="location.href='#'">Повернутися на головне меню</button></p>
+            <div class="col-md-4">
+                <address>
+                     <strong>Адреса:</strong> м. Полтава, просп. Першотравневий, 29<br>
+                    <strong>Телефон:</strong> +380 66 673 3459<br>
+                    <strong>Email:</strong> maksytko666@gmail.com
+                </address>
+            </div>
+        </div>
+    </main>
+    <script>
+        const slides = document.querySelector('.slides');
+        const slide = document.querySelectorAll('.slide');
+        let currentIndex = 0;
+
+        function showNextSlide() {
+            currentIndex++;
+            if (currentIndex >= slide.length) {
+                currentIndex = 0;
+            }
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        setInterval(showNextSlide, 3000);
+    </script>
+    <footer>
+        <p>&copy; 2024 Найвідоміші музеї світу</p>
+    </footer>
+            </section>
+</main>
+    <script src="scripts.js"></script>
+</body>
+</html>
